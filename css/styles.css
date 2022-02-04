@@ -86,9 +86,10 @@ section {
   …
 }
 /* header*/
-.current {
+/* .current {
   color: var(--accent-color);
 }
+
 .header-address__icon {
   margin-right: 10px;
   fill: currentColor;
@@ -184,11 +185,10 @@ section {
 .header-address__link:hover,
 .header-address__link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* hero*/
-
-.hero {
+/* .hero {
   padding: 0;
   background: #2f303a;
   height: 600px;
@@ -238,10 +238,11 @@ section {
   margin-bottom: 30px;
   padding-right: 252px;
 }
+ */
 
 /*advantage */
 
-.advantage__link {
+/* .advantage__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,11 +280,11 @@ section {
   letter-spacing: 0.03em;
   color: var(--paragrapf-color);
   max-width: 270px;
-}
+} */
 
 /*what-are-we-doing*/
 
-.what-are-we-doing__text{
+/* .what-are-we-doing__text{
   display: block;
   width: 205px;
   height: 16px;
@@ -323,11 +324,11 @@ section {
 }
 .what-are-we-doing__item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 /*our_team*/
 
-.employee-social__list {
+/* .employee-social__list {
   display: flex;
   justify-content: center;
   padding-right: 32px;
@@ -411,11 +412,11 @@ section {
 .employee-social__link:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-}
+} */
 
 /*customers*/
 
-.customers__item + .customers__item {
+/* .customers__item + .customers__item {
   margin-left: 30px;
 }
 
@@ -465,10 +466,10 @@ section {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   text-align: center;
-}
+} */
 
 /*footer*/
-.footer-logo__container {
+/* .footer-logo__container {
   margin-right: 70px;
   padding-bottom: 60px;
   padding-top: 60px;
@@ -572,10 +573,10 @@ section {
 
 .footer-address__list {
   min-width: 231px;
-}
+} */
 
 /*portfolio*/
-.current {
+/* .current {
   color: var(--accent-color);
 }
 
@@ -696,11 +697,11 @@ section {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--paragrapf-color);
-}
+} */
 
 /* modal */
 
-.modal__backdrop {
+/* .modal__backdrop {
   position: fixed;
   top: 0%;
   left: 0;
@@ -795,7 +796,7 @@ height: 581px;
   letter-spacing: 0.03em;
   color: var(--h-color);
 
-}  
+}   */
 
  /* modal form */
 
@@ -1014,6 +1015,3 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 margin-right: 12px;
   }
-
-
-
