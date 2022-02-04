@@ -70,16 +70,14 @@
   justify-content: center;
   border-radius: 50%;
   color: #afb1b8;
-
   transition: var(--transition);
+  &:hover, &:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 }
 
 .employee-social__icon {
   fill: currentColor;
 }
 
-.employee-social__link:hover,
-.employee-social__link:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}

@@ -1,4 +1,4 @@
-.what-are-we-doing__text{
+.what-are-we-doing__text {
   display: block;
   width: 205px;
   height: 16px;
@@ -17,6 +17,9 @@
 .what-are-we-doing__item {
   display: flex;
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .what-are-we-doing {
@@ -35,7 +38,4 @@
 
 .what-are-we-doing__list {
   display: flex;
-}
-.what-are-we-doing__item:not(:last-child) {
-  margin-right: 30px;
 }
