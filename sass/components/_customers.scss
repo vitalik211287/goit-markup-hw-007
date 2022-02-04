@@ -13,17 +13,17 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: var(--transition);
+  &:hover, &:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
 }
 
 .customers__icon {
   fill: currentColor;
 }
 
-.customers__link:hover,
-.customers__link:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-}
+
 
 .customers {
   background-color: #ffffff;

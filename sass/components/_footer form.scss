@@ -1,12 +1,4 @@
-.address-logo-container {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    margin-right: 70px ;
-    
-    }
-
-    .footer-field__container {
+       .footer-field__container {
     width: 570px;
     height: 86px;
     display: flex;
@@ -41,10 +33,10 @@
     margin: 0;   
     position: relative;
     border: none;   
-        }
-    .footer-btn:hover {
+    &:hover {
         cursor: pointer;
-    }   
+    }
+        }
 
   .footer-btn__icon {
    position: absolute;

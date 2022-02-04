@@ -39,10 +39,11 @@ height: 581px;
   top: 8px;
   color: #000000;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-.modal__close-btn:hover {
+  &:hover {
     color: var(--accent-color);
 }
+}
+
 
 .modal__icon {
   fill: currentColor;
@@ -78,19 +79,16 @@ height: 581px;
  bottom: 40px;
  right: 50%;
  transform: translateX(50%);
-}
-
-.modal__submit-btn:hover {
+ &:hover {
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  }
- 
-   .modal__title {
+}
+  .modal__title {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--h-color);
-
 }  

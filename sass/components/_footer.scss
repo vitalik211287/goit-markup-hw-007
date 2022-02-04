@@ -29,11 +29,7 @@
   justify-content: flex-start;
 }
 
-.footer-link__link:hover,
-.footer-link__link:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}
+
 
 .footer-link__icon {
   fill: #ffffff;
@@ -49,6 +45,10 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: var(--transition);
+  &:hover, &:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 }
 
 .footer-link__item + .footer-link__item {
@@ -88,15 +88,15 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: var(--transition);
+  &:hover, &:focus {
+  color: var(--accent-color);
+}
 }
 .address-link {
   color: var(--background-color);
 }
 
-.footer-address__link:hover,
-.footer-address__link:focus {
-  color: var(--accent-color);
-}
+
 
 .footer-address__list {
   min-width: 231px;
