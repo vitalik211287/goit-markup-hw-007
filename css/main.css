@@ -684,7 +684,7 @@ section {
   transition: box-shadow, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.service-text__container {
+.all-service-menu__container-card {
   display: flex;
   flex-direction: column;
   width: 370px;
@@ -734,7 +734,7 @@ section {
   justify-content: center;
 }
 
-.service-text__paragraph {
+.all-service-menu__paragraph-card {
   margin-top: 4px;
   font-size: 16px;
   line-height: 30px;
@@ -746,12 +746,16 @@ section {
   display: none;
 }
 
-.service-text__title {
+.all-service-menu__title-card {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--h-color);
+}
+
+.modal {
+  padding: 0;
 }
 
 .modal__backdrop {

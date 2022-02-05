@@ -52,7 +52,7 @@
 }
 
 
-.service-text__container {
+.all-service-menu__container-card {
   display: flex;
   flex-direction: column;
   width: 370px;
@@ -104,7 +104,7 @@
   justify-content: center;
 }
 
-.service-text__paragraph {
+.all-service-menu__paragraph-card {
   margin-top: 4px;
     font-size: 16px;
   line-height: 30px;
@@ -116,7 +116,7 @@
   display: none;
 }
 
-.service-text__title {
+.all-service-menu__title-card {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
