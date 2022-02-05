@@ -460,11 +460,13 @@ section {
   margin-right: 70px;
   padding-bottom: 60px;
   padding-top: 60px;
+  height: 252px;
 }
 
 .footer__container {
   display: flex;
   align-items: center;
+  height: 252px;
 }
 
 .footer-link__title {
